@@ -1,0 +1,7 @@
+C:\Users\naava\source\repos\Uno\Uno\bin\Debug\Uno.exe.config
+C:\Users\naava\source\repos\Uno\Uno\bin\Debug\Uno.exe
+C:\Users\naava\source\repos\Uno\Uno\bin\Debug\Uno.pdb
+C:\Users\naava\source\repos\Uno\Uno\obj\Debug\Uno.csproj.AssemblyReference.cache
+C:\Users\naava\source\repos\Uno\Uno\obj\Debug\Uno.csproj.CoreCompileInputs.cache
+C:\Users\naava\source\repos\Uno\Uno\obj\Debug\Uno.exe
+C:\Users\naava\source\repos\Uno\Uno\obj\Debug\Uno.pdb
