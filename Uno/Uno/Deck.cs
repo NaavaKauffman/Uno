@@ -10,6 +10,10 @@ namespace Uno
     {
         public List<Card> Pile { get; set; }
 
+        protected const int NUMBEROFCOLORS = 4;
+        protected const int NUMBEROFCARDSINFULLDECK = 96;
+
+
         public Deck()
         {
             Pile = new List<Card>();
