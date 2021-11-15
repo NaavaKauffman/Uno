@@ -17,17 +17,20 @@ namespace Uno
         {
             List<Card> deck = new List<Card>();
             int cardCounter = 0;
-            for (int color = 0; color < NUMBEROFCOLORS; color++)
+            for (int color = 0; color < NUMBEROFCOLORS; color++) //I'm not sure exactly how enumerations work but this is if we do it index style.
             {
                 for (int cardNumber = 1; cardNumber <= 9; cardNumber++) //
                 {
                     Card card1 = new Card(color, cardNumber); //creates cards with number and color
 
+                    deck.Add(card1); //two of each number 1-9
                     deck.Add(card1);
-
                     cardCounter++;
                 }
+                Card card0 = new Card(color, 0); //adds one zero per color
+
             }
+
 
             return deck;
         }

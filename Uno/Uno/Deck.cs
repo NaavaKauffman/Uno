@@ -18,5 +18,12 @@ namespace Uno
         {
             Pile = new List<Card>();
         }
+
+        //i think instead of having separate remove and add methods for all the different piles, we should have one moveCard method to avoid accidentally deleting any cards, which will simultaneously add and delete a card from the correct places
+        public void MoveCard(Card cardToMove, List<Card> removeFromHere, List<Card> addToHere)
+        {
+            removeFromHere.Remove(cardToMove);
+            addToHere.Add(cardToMove);
+        }
     }
 }
