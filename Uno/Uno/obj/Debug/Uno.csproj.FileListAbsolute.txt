@@ -5,3 +5,10 @@ C:\Users\naava\source\repos\Uno\Uno\obj\Debug\Uno.csproj.AssemblyReference.cache
 C:\Users\naava\source\repos\Uno\Uno\obj\Debug\Uno.csproj.CoreCompileInputs.cache
 C:\Users\naava\source\repos\Uno\Uno\obj\Debug\Uno.exe
 C:\Users\naava\source\repos\Uno\Uno\obj\Debug\Uno.pdb
+C:\Users\chani\source\repos\NaavaKauffman\Uno\Uno\Uno\obj\Debug\Uno.csproj.AssemblyReference.cache
+C:\Users\chani\source\repos\NaavaKauffman\Uno\Uno\Uno\obj\Debug\Uno.csproj.CoreCompileInputs.cache
+C:\Users\chani\source\repos\NaavaKauffman\Uno\Uno\Uno\obj\Debug\Uno.exe
+C:\Users\chani\source\repos\NaavaKauffman\Uno\Uno\Uno\obj\Debug\Uno.pdb
+C:\Users\chani\source\repos\NaavaKauffman\Uno\Uno\Uno\bin\Debug\Uno.exe.config
+C:\Users\chani\source\repos\NaavaKauffman\Uno\Uno\Uno\bin\Debug\Uno.exe
+C:\Users\chani\source\repos\NaavaKauffman\Uno\Uno\Uno\bin\Debug\Uno.pdb
