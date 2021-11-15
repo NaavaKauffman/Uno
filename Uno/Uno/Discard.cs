@@ -45,7 +45,7 @@ namespace Uno
             return newDrawPile;
         }
 
-        //generate random numbers to be used in shuffling the pile
+        //generate random numbers to be used in shuffling the pile- Chani: i need a shuffle for the initial deck... can we move this to the deck class?
         private static Random rand = new Random();
 
         //Shuffle pile

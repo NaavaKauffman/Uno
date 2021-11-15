@@ -12,8 +12,9 @@ namespace Uno
         static void Main(string[] args)
         {
             //test out discard pile
-            Card tester = new Card(1);
+            Card tester = new Card(1, 8);
             Discard pile = new Discard(tester);
+            DrawPile deck = new DrawPile();
 
             //test play card method
             Card tester2 = new Card(2);
@@ -33,6 +34,12 @@ namespace Uno
 
             //test shuffle
             pile.ClearDiscard();
+
+            //test build deck
+            foreach (Card c in deck.Pile)
+            {
+                Console.WriteLine(c);
+            }
 
             Console.ReadLine();
         }
