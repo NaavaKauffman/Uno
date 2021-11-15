@@ -3,29 +3,31 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Uno.Discard;
 
 
 namespace Uno
 {
-    class Play
+    public class Play
     {
         public void TakeTurn()
         {
 
-            PlayCard();
+            PlayCard1();
             DrawCard();
             CheckWin();
 
         }
-        public void PlayCard()
+        public void PlayCard1()
         {
 
-            Card cardSelcted;
+            Card cardSelected; //find in hand and verify 
 
-            if (cardSelected.Color == TopCard.Color)||//last card on deck)
+            if ((cardSelected.Color == TopCard.Color)||(cardSelected.CardNum == TopCard.Color))//last card on deck)
             {
-                PlayCard (CardSelected);
-                //subtract from hand
+                Move(cardSelected, Hhand, Discard);
+                PlayCard(CardSelected);
+
             }
             else
             {

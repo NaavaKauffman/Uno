@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Uno
 {
-    class Discard : Deck
+    public class Discard : Deck
     {
         public Card TopCard { get; set; } //top card on the pile (visible to players)
 
