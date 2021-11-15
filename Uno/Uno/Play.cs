@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Uno
 {
     class Play
@@ -31,6 +32,19 @@ namespace Uno
                 Console.WriteLine("This card is not valid. Draw a card.");
             }
 
+        }
+
+        public Card DrawCard(Card[] list)
+        {
+            return list.LastOrDefault();
+        }
+
+        public void CheckWin()
+        {
+            if(HandList.Count ==0)
+            {
+                Console.WriteLine($"{player} won!");
+            }
         }
     }
 }
