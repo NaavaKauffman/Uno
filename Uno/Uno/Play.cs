@@ -13,7 +13,6 @@ namespace Uno
 
             PlayCard();
             DrawCard();
-            UpdateCardClass();
             CheckWin();
 
         }
@@ -21,14 +20,16 @@ namespace Uno
         {
 
             Card cardSelcted;
-            if (cardSelected.Color == //last card on deck)
+
+            if (cardSelected.Color == TopCard.Color)||//last card on deck)
             {
-                AddCard(Discard);
+                PlayCard (CardSelected);
                 //subtract from hand
             }
             else
             {
                 Console.WriteLine("This card is not valid. Draw a card.");
+                DrawCard(1);
             }
 
         }
