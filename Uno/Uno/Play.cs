@@ -14,7 +14,7 @@ namespace Uno
 
             PlayCard();
             DrawCard();
-            UpdateCardClass();
+            //UpdateCardClass();
             CheckWin();
 
         }
@@ -36,7 +36,8 @@ namespace Uno
 
         public Card DrawCard(Card[] list)
         {
-            return list.LastOrDefault();
+            Card card= list.LastOrDefault();
+            list.LastOrDefault() = 0;
         }
 
         public void CheckWin()
