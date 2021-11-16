@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Uno
 {
-    class Card
+    public class Card
     {
 
         string[] CardColor = { "Red", "Yellow", "Green", "Blue" };

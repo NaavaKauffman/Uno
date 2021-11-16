@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Uno
 {
-    class Deck
+    public class Deck
     {
         public List<Card> Pile { get; set; }
 

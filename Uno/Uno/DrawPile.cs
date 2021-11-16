@@ -21,14 +21,14 @@ namespace Uno
             {
                 for (int cardNumber = 1; cardNumber <= 9; cardNumber++) //
                 {
-                    Card card1 = new Card(color, cardNumber); //creates cards with number and color
+                    Card card1 = new Card(cardNumber, color); //creates cards with number and color
 
                     deck.Add(card1); //two of each number 1-9
                     deck.Add(card1);
                     cardCounter++;
                 }
-                Card card0 = new Card(color, 0); //adds one zero per color
-
+                Card card0 = new Card(0, color); //adds one zero per color
+                deck.Add(card0);
             }
 
 
