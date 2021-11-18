@@ -8,7 +8,8 @@ namespace Uno
 {
     class Hand
 
-
+        //method that moves from deck to hand
+        //
     {//variables are just to make the program work the person who is in charge of creating that part hopefully will
      //make it clearer it just for testing purposes
         int cardAmnt = 7;

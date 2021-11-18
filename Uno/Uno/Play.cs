@@ -33,9 +33,13 @@ namespace Uno
             }
 
         }
-
+        //Shira Laury
         public Card DrawCard(Card[] list)
         {
+
+            Move(list.LastOrDefault(),
+                
+                //card your moving, (check it's actully there-may be in move), orig decck, senconf deck .
             Card card= list.LastOrDefault();
             list.LastOrDefault() = 0;
         }
