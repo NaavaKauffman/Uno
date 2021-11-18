@@ -52,9 +52,9 @@ namespace Uno
         }
         //Shira Laury
         public Card DrawCard()
-        { 
+        {
 
-            MoveCard(list.LastOrDefault(), Ha
+            MoveCard(list.LastOrDefault(), PersonalPile, drawPile);
                 
                 //card your moving, (check it's actully there-may be in move), orig decck, senconf deck .
             //Card card= list.LastOrDefault();

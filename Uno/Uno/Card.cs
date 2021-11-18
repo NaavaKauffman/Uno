@@ -17,6 +17,7 @@ namespace Uno
         public const int YELLOW = 4;
 
         int[] CardColor = { 1, 2, 3, 4 };
+        
 
         public int CardNumber { get; set; }
        //public int CardColor { get; set; }
@@ -25,7 +26,7 @@ namespace Uno
         public Card(int number, int color)
         {
             CardNumber = number;
-            CardColor = color;
+            CardColor = color;//may want to make this the index of CardColor array equal color. Like indexOfColor = color. Or make set array as CardColor[color] somehow.
         }
 
 
