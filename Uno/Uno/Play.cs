@@ -18,8 +18,9 @@ namespace Uno
             CheckWin();
 
         }
-        public void PlayCard1()
+        public void PlayCard1(string cardWanted)
         {
+            Card theCardPlayed = new Card(int.Parse(), );
 
             Card cardSelected; //find in hand and verify 
             foreach 
