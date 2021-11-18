@@ -22,7 +22,7 @@ namespace Uno
         //Display top card to players
         public void DisplayTopCard()
         {
-            Console.WriteLine($"The top card is {TopCard}");
+            Console.WriteLine($"The top card is {TopCard}");  
         }
 
         //Play a card by adding it to the discard pile
