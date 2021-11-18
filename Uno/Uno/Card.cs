@@ -14,12 +14,12 @@ namespace Uno
         public int CardNumber { get; set; } 
         //public string CardColor { get; set; }
         
-        public enum Color
+        /*public enum Color
         {
             Red, Blue, Green, Yellow
         }
-
-        
+*/
+        //this is a bug - define color using index
         public Card(int number, string color)
         {
             CardNumber = number;

@@ -14,8 +14,9 @@ namespace Uno
         public Discard(Card topcard)
             : base()
         {
-            TopCard = topcard;
-            DisplayTopCard();
+            //move from draw pile
+            TopCard = topcard; //set which card is at the top
+            DisplayTopCard(); //show player so they know what they can put down
         }
 
         //Display top card to players
@@ -25,12 +26,12 @@ namespace Uno
         }
 
         //Play a card by adding it to the discard pile
-        public void PlayCard(Card playedCard)
+        /*public void PlayCard(Card playedCard)
         {
             Pile.Add(TopCard);
             TopCard = playedCard;
             DisplayTopCard();
-        }
+        }*/
 
         //Shuffle the discard pile and return to draw pile (excluding the top card)
         public List<Card> ClearDiscard()
