@@ -20,21 +20,20 @@ namespace Uno
         }
         public void PlayCard1(string cardWanted)
         {
-            Card theCardPlayed = new Card(int.Parse(), );
+            VerifyCardInHand();           
 
-            Card cardSelected; //find in hand and verify 
-            foreach 
 
-            if ((cardSelected.Color == TopCard.Color)||(cardSelected.CardNum == TopCard.Color))//last card on deck)
+                    //if card can go on pile
+            if (VerifyCardBelongsOnPile())//last card on deck)
             {
-                Move(cardSelected, Hhand, Discard);
-                PlayCard(CardSelected);
+                Move(cardSelected, Hhand, Discard); //move from hand to pile
+                PlayCard(CardSelected); //become the new topcard- ?
 
             }
             else
             {
-                Console.WriteLine("This card is not valid. Draw a card.");
-                DrawCard(1);
+                Console.WriteLine("This card is not valid. Draw a card."); //will be separate method, will also offer trying a different card
+                DrawCard(1);  //Draw 1 card
             }
 
         }
@@ -51,5 +50,21 @@ namespace Uno
                 Console.WriteLine($"{player} won!");
             }
         }
+
+        public bool VerifyCardInHand()
+        {
+            //sep. method to see which card taken
+            Card theCardPlayed = new Card(int.Parse(), );
+
+            Card cardSelected; //find in hand and verify 
+            foreach
+        }
+
+        public bool VerifyCardBelongsOnPile()
+        {
+            (cardSelected.Color == TopCard.Color)||(cardSelected.CardNum == TopCard.Color)
+
+        }
     }
+
 }
