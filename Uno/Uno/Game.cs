@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Uno
 {
-    class Game
+    public class Game
     {
         string player;
         int counter = 1;

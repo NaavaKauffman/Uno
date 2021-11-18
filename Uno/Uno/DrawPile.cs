@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Uno
 {
-    class DrawPile : Deck
+    public class DrawPile : Deck
     {
         public DrawPile() : base()
         {
@@ -30,7 +30,6 @@ namespace Uno
                 Card card0 = new Card(0, color); //adds one zero per color
                 deck.Add(card0);
             }
-
 
             return deck;
         }
