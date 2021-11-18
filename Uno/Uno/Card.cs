@@ -8,23 +8,31 @@ namespace Uno
 {
     public class Card
     {
-
-        string[] CardColor = { "Red", "Yellow", "Green", "Blue" };
-
-        public int CardNumber { get; set; } 
-        //public string CardColor { get; set; }
         
-        public enum Color
-        {
-            Red, Blue, Green, Yellow
-        }
 
-        
-        public Card(int number, string color)
+
+        public const int BLUE = 1;
+        public const int GREEN = 2;
+        public const int RED = 3;
+        public const int YELLOW = 4;
+
+        int[] CardColor = { 1, 2, 3, 4 };
+
+        public int CardNumber { get; set; }
+       //public int CardColor { get; set; }
+
+
+        public Card(int number, int color)
         {
             CardNumber = number;
-            CardColor= color;
-           
+            CardColor = color;
+        }
+
+
+        //this is a bug - define color using index
+
+        
+       
         }
        
         //public override string ToString()

@@ -12,3 +12,11 @@ C:\Users\chani\source\repos\NaavaKauffman\Uno\Uno\Uno\obj\Debug\Uno.pdb
 C:\Users\chani\source\repos\NaavaKauffman\Uno\Uno\Uno\bin\Debug\Uno.exe.config
 C:\Users\chani\source\repos\NaavaKauffman\Uno\Uno\Uno\bin\Debug\Uno.exe
 C:\Users\chani\source\repos\NaavaKauffman\Uno\Uno\Uno\bin\Debug\Uno.pdb
+C:\Users\yaela\source\repos\Uno\Uno\Uno\Uno\obj\Debug\Uno.csproj.AssemblyReference.cache
+C:\Users\yaela\source\repos\Uno\Uno\Uno\Uno\obj\Debug\Uno.csproj.CoreCompileInputs.cache
+C:\Users\yaela\source\repos\Uno\Uno\Uno\Uno\obj\Debug\Uno.exe
+C:\Users\yaela\source\repos\Uno\Uno\Uno\Uno\obj\Debug\Uno.pdb
+C:\Users\shira\source\repos\UNO\Uno\Uno\Uno\obj\Debug\Uno.csproj.AssemblyReference.cache
+C:\Users\shira\source\repos\UNO\Uno\Uno\Uno\obj\Debug\Uno.csproj.CoreCompileInputs.cache
+C:\Users\shira\source\repos\UNO\Uno\Uno\Uno\obj\Debug\Uno.exe
+C:\Users\shira\source\repos\UNO\Uno\Uno\Uno\obj\Debug\Uno.pdb

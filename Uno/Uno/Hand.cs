@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Uno
 {
-    class Hand
+    //build hand
+    //use move method to move 7 cards from draw to hand
+    //display
+    public class Hand
 
         //method that moves from deck to hand
         //

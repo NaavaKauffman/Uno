@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Uno
 {
-    class Discard : Deck
+    public class Discard : Deck
     {
         public Card TopCard { get; set; } //top card on the pile (visible to players)
 
@@ -14,23 +14,24 @@ namespace Uno
         public Discard(Card topcard)
             : base()
         {
-            TopCard = topcard;
-            DisplayTopCard();
+            //move from draw pile
+            TopCard = topcard; //set which card is at the top
+            DisplayTopCard(); //show player so they know what they can put down
         }
 
         //Display top card to players
         public void DisplayTopCard()
         {
-            Console.WriteLine($"The top card is {TopCard}");
+            Console.WriteLine($"The top card is {TopCard}");  
         }
 
         //Play a card by adding it to the discard pile
-        public void PlayCard(Card playedCard)
+        /*public void PlayCard(Card playedCard)
         {
             Pile.Add(TopCard);
             TopCard = playedCard;
             DisplayTopCard();
-        }
+        }*/
 
         //Shuffle the discard pile and return to draw pile (excluding the top card)
         public List<Card> ClearDiscard()

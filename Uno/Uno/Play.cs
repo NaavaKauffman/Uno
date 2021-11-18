@@ -3,45 +3,52 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Uno.Discard;
 
 
 namespace Uno
 {
-    class Play
+    public class Play
     {
         public void TakeTurn()
         {
 
-            PlayCard();
+            PlayCard1();
             DrawCard();
-            //UpdateCardClass();
             CheckWin();
 
         }
-        public void PlayCard()
+        public void PlayCard1(string cardWanted)
         {
+            Card theCardPlayed = new Card(int.Parse(), );
 
-            Card cardSelcted;
-            if (cardSelected.Color == //last card on deck)
+            Card cardSelected; //find in hand and verify 
+            foreach 
+
+            if ((cardSelected.Color == TopCard.Color)||(cardSelected.CardNum == TopCard.Color))//last card on deck)
             {
-                AddCard(Discard);
-                //subtract from hand
+                Move(cardSelected, Hhand, Discard);
+                PlayCard(CardSelected);
+
             }
             else
             {
                 Console.WriteLine("This card is not valid. Draw a card.");
+                DrawCard(1);
             }
 
         }
         //Shira Laury
-        public Card DrawCard(Card[] list)
-        {
+        public Card DrawCard()
+        { 
 
-            Move(list.LastOrDefault(),
+            MoveCard(list.LastOrDefault(), Ha
                 
                 //card your moving, (check it's actully there-may be in move), orig decck, senconf deck .
-            Card card= list.LastOrDefault();
-            list.LastOrDefault() = 0;
+            //Card card= list.LastOrDefault();
+            //list.LastOrDefault() = 0;
+
+            return list.LastOrDefault();
         }
 
         public void CheckWin()

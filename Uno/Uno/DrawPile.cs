@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Uno
 {
-    class DrawPile : Deck
+    public class DrawPile : Deck
     {
         public DrawPile() : base()
         {
@@ -18,8 +18,8 @@ namespace Uno
             List<Card> deck = new List<Card>();
             int cardCounter = 0;
             for (int color = 0; color < NUMBEROFCOLORS; color++) //I'm not sure exactly how enumerations work but this is if we do it index style.
-            {
-                for (int cardNumber = 1; cardNumber <= 9; cardNumber++) //
+            {cardNumber = 1; cardN
+                for (int cumber <= 9; cardNumber++) //
                 {
                     Card card1 = new Card(cardNumber, color); //creates cards with number and color
 
@@ -30,7 +30,6 @@ namespace Uno
                 Card card0 = new Card(0, color); //adds one zero per color
                 deck.Add(card0);
             }
-
 
             return deck;
         }
