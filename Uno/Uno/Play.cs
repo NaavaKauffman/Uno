@@ -22,6 +22,7 @@ namespace Uno
         {
 
             Card cardSelected; //find in hand and verify 
+            foreach 
 
             if ((cardSelected.Color == TopCard.Color)||(cardSelected.CardNum == TopCard.Color))//last card on deck)
             {
