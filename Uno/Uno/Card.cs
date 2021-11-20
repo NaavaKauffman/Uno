@@ -6,27 +6,22 @@ using System.Threading.Tasks;
 
 namespace Uno
 {
+   public enum Colors { Blue = 1, Green, Red, Yellow} //this is the enum for the colors. after Blue =1, it automatically sets each color to a number. hover over it to see.
+    
     public class Card
     {
-        
+        public int CardNumber { get; set; }//property CardNumber
+        public Colors CardColor { get; set; }//property CardColor
 
-
-        public const int BLUE = 1;
-        public const int GREEN = 2;
-        public const int RED = 3;
-        public const int YELLOW = 4;
-
-        int[] CardColor = { 1, 2, 3, 4 };
-        
-
-        public int CardNumber { get; set; }
-       //public int CardColor { get; set; }
-
-
-        public Card(int number, int color)
+        /// <summary>
+        /// Card constructor
+        /// </summary>
+        /// <CardNumber="number"></param>
+        /// <CardColor="color"></param>
+        public Card(int number = 0, Colors color = Colors.Blue) 
         {
             CardNumber = number;
-            CardColor = color;//may want to make this the index of CardColor array equal color. Like indexOfColor = color. Or make set array as CardColor[color] somehow.
+            CardColor = color;
         }
 
 
