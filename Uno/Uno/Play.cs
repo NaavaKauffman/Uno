@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 //using Uno.Discard;
+using  static Uno.Deck;
+using static Uno.Discard;
 
 
 
@@ -16,7 +18,7 @@ namespace Uno
         {
             GetNextStep();
             PlayCard1();
-            //DrawCard();
+            DrawCard();
             CheckWin();
 
         }
@@ -24,7 +26,7 @@ namespace Uno
         {
             //how are we defining and determining these?
             int cardNumWanted = 0;
-             int  CardColorWanted = 0;
+            int  CardColorWanted = 0;
 
            if ( VerifyCardInHand(cardNumWanted,CardColorWanted,Hand))
 
@@ -51,25 +53,26 @@ namespace Uno
 
         }
         //Shira Laury
+        /// <summary>
+        /// method that draws a card
+        /// </summary>
+        /// <returns></returns>
         public Card DrawCard()
         {
-
             MoveCard(list.LastOrDefault(), PersonalPile, drawPile);
-                
-                //card your moving, (check it's actully there-may be in move), orig decck, senconf deck .
-            //Card card= list.LastOrDefault();
-            //list.LastOrDefault() = 0;
+        }
 
-        
+
         //public Card DrawCard()
         //{
         //    //TopCard();
         //    return list.LastOrDefault();
         //}
 
+        
         public void CheckWin()
         {
-            if(HandList.Count ==0)
+            if(PersonalPile.Count == 0)
             {
                 Console.WriteLine($"{player} won!");
             }
@@ -83,7 +86,7 @@ namespace Uno
             //Card cardSelected; //find in hand and verify 
             foreach (var card in WhereItIs)
             {
-                if ((card.CardNumber == cardNum) & (card.CCOLLLOORR==Index))
+                if ((card.CardNumber == cardNum) & (card.CardColor==Index))
                 {
                     return true;
                 }

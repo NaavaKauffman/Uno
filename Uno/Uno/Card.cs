@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Uno
-{
+{ //Sara Hersh
    public enum Colors { Blue = 1, Green, Red, Yellow} //this is the enum for the colors. after Blue =1, it automatically sets each color to a number. hover over it to see.
     
     public class Card
