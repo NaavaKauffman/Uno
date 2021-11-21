@@ -106,7 +106,7 @@ namespace Uno
         //}
         public void DisplayErrorMessage()
         {
-            Console.WriteLine("This is not a valid Card. Either it is not in your hand, or it is an invalid play \n it does not match the color or number of the top card.");
+            Console.WriteLine("This is not a valid Card. E ither it is not in your hand, or it is an invalid play \n it does not match the color or number of the top card.");
         }
         public string GetNextStep()
         {
