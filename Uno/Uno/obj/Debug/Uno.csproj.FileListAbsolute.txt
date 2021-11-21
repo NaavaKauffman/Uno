@@ -16,3 +16,7 @@ C:\Users\yaela\source\repos\Uno\Uno\Uno\Uno\obj\Debug\Uno.csproj.AssemblyReferen
 C:\Users\yaela\source\repos\Uno\Uno\Uno\Uno\obj\Debug\Uno.csproj.CoreCompileInputs.cache
 C:\Users\yaela\source\repos\Uno\Uno\Uno\Uno\obj\Debug\Uno.exe
 C:\Users\yaela\source\repos\Uno\Uno\Uno\Uno\obj\Debug\Uno.pdb
+C:\Users\shira\source\repos\UNO\Uno\Uno\Uno\obj\Debug\Uno.csproj.AssemblyReference.cache
+C:\Users\shira\source\repos\UNO\Uno\Uno\Uno\obj\Debug\Uno.csproj.CoreCompileInputs.cache
+C:\Users\shira\source\repos\UNO\Uno\Uno\Uno\obj\Debug\Uno.exe
+C:\Users\shira\source\repos\UNO\Uno\Uno\Uno\obj\Debug\Uno.pdb

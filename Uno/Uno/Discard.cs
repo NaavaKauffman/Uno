@@ -43,7 +43,7 @@ namespace Uno
 
             Pile.Clear();
 
-            return newDrawPile;
+            return newDrawPile;//who's calling this so that I can reach a set drawPile?-Shira, until s/t calls it, I'm naming the current draw Pile array as drawPile.
         }
 
         //generate random numbers to be used in shuffling the pile- Chani: i need a shuffle for the initial deck... can we move this to the deck class?
